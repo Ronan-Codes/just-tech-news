@@ -111,7 +111,7 @@ router.put('/upvote', (req, res) => {
         res.status(400).json(err);
         });
     });
-})
+
 
 router.put('/:id', (req, res) => {
     Post.update(
